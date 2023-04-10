@@ -1,0 +1,32 @@
+html,
+git body{
+  height: 100%;
+  background-color: rgb(150, 157, 157);
+}
+
+.container{
+  display: grid;
+  height: 100%;
+  max-width: 100%;
+  background-color: #ffff;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right:80px;
+  grid-template-columns: 400px 1fr 50px;
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+  "aside main footer";
+}
+
+aside{
+  grid-area: aside;
+  background-color: aqua;
+}
+
+main{
+  grid-area: main;
+}
+
+footer{
+  grid-area: footer;
+}
