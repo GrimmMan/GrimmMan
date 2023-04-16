@@ -21,6 +21,7 @@ body{
 aside{
   grid-area: aside;
   background-color: aqua;
+  border-radius: 100% 0% 100% 0% / 0% 78% 22% 100% ;
 }
 
 main{
@@ -29,4 +30,12 @@ main{
 
 footer{
   grid-area: footer;
+  background-color: aqua;
+  border-radius: 100% 0% 100% 0% / 100% 100% 0% 0% ;
+}
+
+.foto{
+  position:absolute;
+  max-width: 400px;
+  /* max-height: 400px; */
 }
