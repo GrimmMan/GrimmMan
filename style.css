@@ -9,7 +9,7 @@ body{
   display: grid;
   max-width: 100%;
   max-width: 100%;
-  background-color: #ffff;
+  background-color: #e3e5e6;
   margin-top: 20px;
   margin-left: 40px;
   margin-right:80px;
@@ -23,7 +23,7 @@ aside{
   grid-area: aside;
   background-color: #1d2735;
   border-radius: 100% 0% 100% 0% / 0% 43% 57% 100%;
-  padding-bottom: 50px;
+  padding-bottom: 150px;
 }
 
 main{
@@ -33,7 +33,7 @@ main{
 footer{
   grid-area: footer;
   background-color: #1d2735;
-  border-radius: 100% 0% 100% 0% / 100% 100% 0% 0% ;
+  border-radius: 100% 0% 100% 0% / 100% 100% 0% 0%;
 }
 
 .photo{
@@ -45,6 +45,7 @@ footer{
   font-style: normal;
   font-weight: 400;
   font-size: 28px;
+  margin-top: 50px;
   margin-left: 30px;
   color: rgb(222, 218, 239);
 }
@@ -58,7 +59,7 @@ footer{
 
 .contact-link{
   font-style: normal;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
   color: rgb(222, 218, 239);
 }
@@ -66,42 +67,72 @@ footer{
 .contact-link2{
   margin-left: 52px;
   font-style: normal;
-  font-size: 20px;
+  font-size: 18px;
   color: rgb(222, 218, 239);
 }
 
 .input-text{
   font-style: normal;
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 300;
   margin-left: 5px;
   color: rgb(222, 218, 239);
 }
 
 .li-button{
   margin-left: 10px;
-  color: rgb(222, 218, 239);
+  color: rgb(232, 93, 7);
+  margin-bottom: 3px;
 }
+
 .jobVac{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
   margin-top: 40px;
   margin-left: 40px;
-  font-size: 16px;
   color: rgb(83, 90, 116);
 }
 
 .name{
-  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
   margin-top: 30px;
   margin-left: 40px;
   color: rgb(34, 33, 33);
 }
 
 .aboutMe{
-  display: grid;
   font-style: normal;
   margin-top: 40px;
   margin-left: 30px;
   margin-right: 20px;
-  font-size: 16px;
-  font-weight: 400;
+  margin-bottom: 90px;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(53, 53, 54);
+}
+
+.pAboutMe{
+  text-indent: 20px;
+  margin: 0;
+}
+
+.centralTitle{
+  font-style: normal;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.gitLink{
+  margin-left: 3px;
+  color: rgb(53, 53, 54);
+}
+
+.numGitLink{
+  margin-left: 6px;
   color: rgb(53, 53, 54);
 }
