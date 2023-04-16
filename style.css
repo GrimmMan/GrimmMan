@@ -21,7 +21,7 @@ body{
 
 aside{
   grid-area: aside;
-  background-color: rgb(52, 53, 66);
+  background-color: #1d2735;
   border-radius: 100% 0% 100% 0% / 0% 43% 57% 100%;
   padding-bottom: 50px;
 }
@@ -32,7 +32,7 @@ main{
 
 footer{
   grid-area: footer;
-  background-color: rgb(52, 53, 66);
+  background-color: #1d2735;
   border-radius: 100% 0% 100% 0% / 100% 100% 0% 0% ;
 }
 
@@ -42,9 +42,66 @@ footer{
 }
 
 .sidebar-title{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  margin-left: 30px;
+  color: rgb(222, 218, 239);
+}
+
+.contact-type{
+  font-style: normal;
+  font-size: 20px;
+  margin-left: 30px;
   color: rgb(222, 218, 239);
 }
 
 .contact-link{
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 300;
   color: rgb(222, 218, 239);
+}
+
+.contact-link2{
+  margin-left: 52px;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(222, 218, 239);
+}
+
+.input-text{
+  font-style: normal;
+  font-size: 20px;
+  margin-left: 5px;
+  color: rgb(222, 218, 239);
+}
+
+.li-button{
+  margin-left: 10px;
+  color: rgb(222, 218, 239);
+}
+.jobVac{
+  margin-top: 40px;
+  margin-left: 40px;
+  font-size: 16px;
+  color: rgb(83, 90, 116);
+}
+
+.name{
+  font-size: 18px;
+  margin-top: 30px;
+  margin-left: 40px;
+  color: rgb(34, 33, 33);
+}
+
+.aboutMe{
+  display: grid;
+  font-style: normal;
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(53, 53, 54);
 }
