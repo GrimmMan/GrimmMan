@@ -9,7 +9,7 @@ body{
   display: grid;
   max-width: 100%;
   max-width: 100%;
-  background-color: #e3e5e6;
+  background-color: #dde0e2;
   margin-top: 20px;
   margin-left: 40px;
   margin-right:80px;
@@ -134,5 +134,22 @@ footer{
 
 .numGitLink{
   margin-left: 6px;
+  color: rgb(53, 53, 54);
+}
+
+.education-text{
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 30px;
+  color: rgb(53, 53, 54);
+}
+
+.education-text2{
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 30px;
+  margin-top: -15px;
   color: rgb(53, 53, 54);
 }
