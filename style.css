@@ -2,11 +2,12 @@ html,
 body{
   height: 100%;
   background-color: rgb(150, 157, 157);
+  font-family: 'Montserrat', sans-serif;
 }
 
 .container{
   display: grid;
-  height: 100%;
+  max-width: 100%;
   max-width: 100%;
   background-color: #ffff;
   margin-top: 20px;
@@ -20,8 +21,9 @@ body{
 
 aside{
   grid-area: aside;
-  background-color: aqua;
-  border-radius: 100% 0% 100% 0% / 0% 78% 22% 100% ;
+  background-color: rgb(52, 53, 66);
+  border-radius: 100% 0% 100% 0% / 0% 43% 57% 100%;
+  padding-bottom: 50px;
 }
 
 main{
@@ -30,12 +32,19 @@ main{
 
 footer{
   grid-area: footer;
-  background-color: aqua;
+  background-color: rgb(52, 53, 66);
   border-radius: 100% 0% 100% 0% / 100% 100% 0% 0% ;
 }
 
-.foto{
-  position:absolute;
-  max-width: 400px;
-  /* max-height: 400px; */
+.photo{
+  max-width: 399.5px;
+
+}
+
+.sidebar-title{
+  color: rgb(222, 218, 239);
+}
+
+.contact-link{
+  color: rgb(222, 218, 239);
 }
