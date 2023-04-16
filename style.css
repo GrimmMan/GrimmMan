@@ -134,6 +134,7 @@ footer{
 
 .numGitLink{
   margin-left: 6px;
+  margin-bottom: 15px;
   color: rgb(53, 53, 54);
 }
 
@@ -152,4 +153,19 @@ footer{
   margin-left: 30px;
   margin-top: -15px;
   color: rgb(53, 53, 54);
+}
+
+.nl{
+  float: right;
+  width: 37px;
+  margin-top: -48px;
+  border-radius: 82% 18% 81% 19% / 21% 79% 21% 79%;
+}
+
+.en{
+  float: right;
+  width: 37px;
+  margin-top: -48px;
+  margin-right: 45px;
+  border-radius: 82% 18% 81% 19% / 21% 79% 21% 79%;
 }
