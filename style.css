@@ -137,17 +137,17 @@ footer{
   color: rgb(53, 53, 54);
 }
 
-.education-text{
+.education-text, .work-text{
   font-style: normal;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   margin-left: 30px;
   color: rgb(53, 53, 54);
 }
 
-.education-text2{
+.education-text2, .work-text2{
   font-style: normal;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   margin-left: 30px;
   margin-top: -15px;
